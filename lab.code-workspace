@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"css.remoteStyleSheets": [
+			"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css",
+			"https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		],
+		"liveServer.settings.port": 5510,
+		"liveServer.settings.useWebExt": true,
+		"liveServer.settings.proxy": {
+			"enable": true,
+			"baseUri": "/",
+			"proxyUri": "http://localhost/lab"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "lab",
+		"git.autoRepositoryDetection": false,
+		// "intelephense.format.enable": true
+
+	}
+}

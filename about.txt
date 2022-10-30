@@ -1,0 +1,57 @@
+
+India Health 
+
+Admin Details
+Username : smit
+Password : admin@123
+
+Example Users :
+3 Smit Bosamiya - 11-05-2000
+    U - smit
+    P - @6vEVHwz
+4 Dharmesh Shiroya - 01-01-2001
+    U - dharmesh
+    P - dharmesh
+
+
+
+Jurnal / Patient Area
+./index.php                     - Home Page
+./about.php                     - About India Health
+./contact.php                   - Contact Details
+./signin.php                    - Sign in & Signup
+./my_report.php                 - Self Medical Reports
+./profile.php                   - view & Edit Profile(username, photo)
+                                  photo Usage Remain, Password Chnage Remain
+
+Admin Area
+./admin/index.php               - Dashboard - Thing Not Defined
+./admin/users.php               - Complate User Chnageing Rights
+./admin/doctors.php             - Complate Doctor Chnageing Rights
+./admin/laboratorys.php         - Complate Laboratory Chnageing Rights
+./admin/templates.php           - Complate Templates Menagment
+./admin/groups.php              - Complate Groups Menagment
+./admin/units.php               - Complate Units Menagment
+./admin/querys.php              - Admin Lavel Querys Managment
+
+Helper Area
+./helper/index.php               - Dashboard - Thing For Helper
+./helper/users.php               - Limited User Chnageing Rights
+./helper/doctors.php             - Limited Doctor Chnageing Rights
+./helper/laboratorys.php         - Limited Laboratory Chnageing Rights
+./helper/querys.php              - Helper Lavel Querys Managment
+
+
+Helper Doctor
+./doctor/index.php               - Dashboard - Recent Viewd Report
+./doctor/profile.php             - Can View Their Profile
+./doctor/get_report.php          - Can View Patient Reports
+./doctor/add_patient.php         - Add Patient
+
+Helper Laboratory
+./doctor/index.php               - Dashboard - Recent Added & Fill to Remain Reports
+./doctor/profile.php             - Can View Their Profile
+./doctor/history.php             - Can View Report History
+./doctor/create_report.php       - Add / Create New Report
+./doctor/fill_report.php         - Fill Added Reports
+./doctor/add_patient.php         - Add Patient
